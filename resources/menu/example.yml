@@ -1,0 +1,39 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  # name - appears as the title - REQUIRED
+  name: '&1Example menu'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # symbol - usage: 'selector open menu'
+  symbol: 'menu'
+
+  # open-with-item - OPTIONAL
+    # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: true
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+spawncmd:
+  command: 'spawn'
+  name: '&e/spawn'
+  lore:
+    - 'It justs executes /spawn'
+    - 'as the player who clicked.'
+  id: 123
+  item: wool
+  position-x: 1
+  position-y: 1

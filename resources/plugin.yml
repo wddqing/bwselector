@@ -1,0 +1,9 @@
+name: Selector
+main: net.wddqing.bwselector.Selector
+version: 1.0
+
+commands:
+  selector:
+    description: show server list
+    usage: /<command>
+    permissions: selector

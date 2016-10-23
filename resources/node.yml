@@ -1,0 +1,7 @@
+node1:
+  addr: 127.0.0.1:5555
+  name: bedwars1
+
+node2:
+  addr: 127.0.0.1:10000
+  name: bedwars2
